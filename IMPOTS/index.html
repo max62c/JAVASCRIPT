@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les impôts</title>
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 mx-auto mt-5 text-center">
+                <div class="mb-3">
+                    <label for="age-saisi" class="form-label">Saisissez l'âge : </label>
+                    <input type="number" class="form-control" id="age-saisi" aria-describedby="age-saisi">
+                    <div id="age-description" class="form-text">Devez vous payer l'impôt ?</div>
+                </div>
+                <div class="mb-3">
+                    <label for="sexe-saisi" class="form-label">Saisissez le genre : </label>
+                    <select class="form-select" aria-label="Defaut select example" id="sexe-saisi">
+                        <option selected>Choisissez une valeur...</option>
+                        <option value="H">Homme</option>
+                        <option value="F">Femme</option>
+                    </select>
+                </div>
+                <button type="submit" id="bouton" class="btn btn-primary mt-5">Valider</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 mx-auto mt-5 text-center">
+                <div id="message"></div>
+            </div>
+        </div>
+      </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
