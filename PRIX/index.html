@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-sm-6 mx-auto mt-5 text-center">
+                <div class="mb-6">
+                    <div id="IDobjet"></div>
+                    <div id="IDnomobjet"></div>
+                    <br>
+                </div>
+                <div class="mb-6">
+                    <label for="IDprixPropose" class="form-label">Proposez un prix entre 1 & 100 euros:</label>
+                    <input type="number" class="form-control" id="IDprixPropose" aria-describedby="IDprixPropose">
+                    <div class="form-text">Trouvez le juste prix et tentez de gagner cet objet !</div>
+                    <div id="IDnbTentative" class="form-text"></div>
+                </div>
+                <button type="submit" id="bouton" class="btn btn-primary mt-5">Proposer</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 mx-auto mt-5 text-center">
+                <div id="IDmessage">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
