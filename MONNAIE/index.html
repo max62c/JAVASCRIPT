@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Monnaie</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-sm-12 text-center">
+                <h1>Caisse enregistreuse</h1>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-12   text-center">
+                <div class="mb-6">
+                    <label for="IDtotal" class="form-label">Saisissez le montant total à payer:</label>
+                    <input type="text" class="form-control" id="IDtotal" aria-describedby="IDtotal">
+                </div>
+            </div>
+            <div class="col-sm-3   mt-5 text-center"></div>
+                <div class="mb-6">
+                    <label for="IDmonnaie" class="form-label">Saisissez le montant donné par le client:</label>
+                    <input type="text" class="form-control" id="IDmonnaie" aria-describedby="IDmonnaie">
+                </div>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-sm-12">
+                <div class="text-center">
+                    <button type="submit" id="button" class="btn btn-primary mt-5">Rendre la monnaie</button>
+                </div>
+            </div>
+        </div>
+        <div class="row mt5">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body dix-euro">
+                        <img src="./img/10_euro.jpg" width="100%">
+                        <div id="IDmessage10" class="valleur-alignee"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body dix-euro">
+                        <img src="./img/5_euro.jpg" width="100%">
+                        <div id="IDmessage5" class="valleur-alignee"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body dix-euro">
+                        <img src="./img/1euro.jpg" width="100%">
+                        <div id="IDmessage1" class="valleur-alignee"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
