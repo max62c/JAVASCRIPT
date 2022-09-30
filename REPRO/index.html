@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Reprographie</title>
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<style>
+    body{
+      background-color: #FDF5E6;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 mx-auto mt-5 text-center">
+                <div class="mb-6">
+                    <label for="IDvaleurSaisie" class="form-label">Combien de photocopies voulez-vous réaliser ?</label>
+                    <input type="number" class="form-control" id="IDvaleurSaisie" aria-describedby="IDvaleurSaisie">
+                    <div class="IDformText">Voici nos tarifs : 10 cts les 10 premières, 0.9 cts les 20 suivantes et 0.8 cts au delà</div>
+                </div>
+                <button type="submit" id="bouton" class="btn btn-primary mt-5">Estimer</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 mx-auto mt-5 text-center">
+                <div id="message"></div>
+            </div>
+        </div>
+      </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
