@@ -15,3 +15,5 @@ Le jeu doit afficher les lettres de l'alphabet.
 Le joueur à 9 tentatives pour deviner le mot.
 
 Ajoutez un message gagnant ou perdant à la fin.
+
+https://max62c.github.io/JAVASCRIPT/PENDU/index.html
