@@ -7,3 +7,5 @@ Pour gagner, il faut deviner la combinaison secrète en 12 tentatives maximum.
 Habituellement, le jeu se joue à deux mais ici nous partons du principe que c'est l'ordinateur qui fixe la combinaison secrète.
 
 L’utilisateur doit donc deviner la combinaison.
+
+https://max62c.github.io/JAVASCRIPT/MASTERMIND/index.html
